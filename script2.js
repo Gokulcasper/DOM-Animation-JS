@@ -36,11 +36,11 @@ showBtn.addEventListener("click", () => {
   if (textEl.classList.contains("hide")) {
     showBtn.innerText = "Hide data";
     showBtn.style.backgroundColor = "rgb(196, 191, 191)";
-    // textEl.style.display = "block";
     textEl.classList.remove("hide");
+    // textEl.style.display = "block";
   } else {
-    textEl.classList.add("hide");
     // textEl.style.display = "none";
+    textEl.classList.add("hide");
     showBtn.style.backgroundColor = "rgb(149, 184, 197)";
     showBtn.innerText = "Show data";
   }
